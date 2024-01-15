@@ -1,8 +1,10 @@
 import React from 'react'
 
+const name = 'submit';
+
 const Button = () => {
   return (
-    <button>Submit</button>
+    <button>{name}</button>
   )
 }
 
