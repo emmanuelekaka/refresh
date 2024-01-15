@@ -1,10 +1,12 @@
 import React from 'react'
 
-const name = 'submit';
+// const name = 'submit';
+
+const getName = ()=> {return "Small by small";}
 
 const Button = () => {
   return (
-    <button>{name}</button>
+    <button>{getName()}</button>
   )
 }
 
