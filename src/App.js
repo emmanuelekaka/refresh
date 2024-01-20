@@ -23,6 +23,7 @@ const App = () => {
     <div>
       <h1>React Restart</h1>
       <Button/>
+      <p>Hello Emmet</p>
       <Linked/>
       <Propex name = {name}/>
       <List People={People}/>
