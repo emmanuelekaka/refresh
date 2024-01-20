@@ -19,3 +19,7 @@ code {
   border-radius: 6px;
 
 }
+.BookList{
+  display:flex;
+  flex-wrap: wrap;
+}
