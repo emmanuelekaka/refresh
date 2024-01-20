@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Book = (Items) => {
-  const {img, name, rating} = Items.book;
+  const {img, name, rating} = Items;
   return (
     <div>
         <img src={img} alt={name} style={{width:'200px'}}/>

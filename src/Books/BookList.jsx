@@ -17,7 +17,7 @@ const BookList = ({Items}) => {
     <div className="BookList">
       {
       Items.map((book) => (
-        <Book key = {book.id} book={book}/>
+        <Book key = {book.id} {...book}/>
       ))}
         
     </div>
