@@ -4,29 +4,12 @@ import './index.css';
 // import App from './App';
 import BookList from './Books/BookList';
 
-const Items =[{
-  id:1,
-  img:'./Images/future.jpg',
-  name:'Ways of the future',
-  rating:'fa fa-star checked'
-},{
-  id:2,
-  img:'./Images/future.jpg',
-  name:'Ways of the future',
-  rating:'fa fa-star checked'
-},
-  {
-  id:3,
-    img:'./Images/future.jpg',
-  name:'Ways of the future',
-  rating:'fa fa-star checked'
-}]
-
+import Data from './Books/Data';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BookList Items={Items}/>
+    <BookList Items={Data}/>
   </React.StrictMode>
 );
 
