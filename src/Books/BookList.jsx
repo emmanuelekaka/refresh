@@ -3,12 +3,12 @@ import Book from './Book'
 
 
 
-const BookList = ({Items}) => {
+const BookList = ({Items, removeItem}) => {
   return (
     <div className="BookList">
       {
       Items.map((book) => (
-        <Book key = {book.id} {...book}/>
+        <Book key = {book.id} {...book} removeItem={removeItem}/>
       ))}
         
     </div>

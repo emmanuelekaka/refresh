@@ -6,13 +6,13 @@ const Data =[{
   },{
     id:2,
     img:'./Images/future.jpg',
-    name:'Ways of the future',
+    name:'Grimilin',
     rating:'fa fa-star checked'
   },
     {
     id:3,
       img:'./Images/future.jpg',
-    name:'Ways of the future',
+    name:'Zodiac signs',
     rating:'fa fa-star checked'
   }]
 

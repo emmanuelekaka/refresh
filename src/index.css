@@ -23,3 +23,6 @@ code {
   display:flex;
   flex-wrap: wrap;
 }
+.book{
+  margin: 0px 10px;
+}
