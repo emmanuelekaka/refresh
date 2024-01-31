@@ -26,3 +26,12 @@ code {
 .book{
   margin: 0px 10px;
 }
+.Person{
+  border: 1px solid black;
+
+}
+.Person>img{
+  height:100px;
+  width: 100px;
+  border-radius: 50%;
+}
