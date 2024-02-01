@@ -26,8 +26,16 @@ code {
 .book{
   margin: 0px 10px;
 }
+.people{
+  display:flex;
+  flex-wrap: wrap;
+}
 .Person{
   border: 1px solid black;
+  width:fit-content;
+  padding:6px;
+  margin:3px;
+  border-radius: 4px;
 
 }
 .Person>img{

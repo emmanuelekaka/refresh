@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react'
+import axios from 'axios';
 
 const uri = 'https://api.github.com/users';
 
@@ -6,26 +7,23 @@ const UseEffectApi = () => {
     const [users, setPeople] = useState([]);
 
     const getUsers = async () =>{
-        const response = await fetch(uri);
-        const users = await response.json();
-        setPeople(users)
-        // return users;
-        // console.log(users);
-    }
+        const response = await axios.get(uri);
+        const users = await response.data;
+        setPeople(users);
 
+    }
     useEffect(()=>{
         getUsers();
 
-    });
+    },[]);
   return (
     <div>
       <p>Git Hub Users</p>
+      <div className='people'>
         {
-            users.map((user)=>{
-                <Person key={user.id} Person = {user}/>
-            })
-            
+            users.map((user)=>(<Person key={user.id} {...user}/>))
         }
+        </div>
         
     </div>
   )
