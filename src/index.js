@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Conditional from './Hooks/Conditional/Conditional';
+import Form from './Hooks/Forms/Form';
+// import Conditional from './Hooks/Conditional/Conditional';
+// import Shortcircuit from './Hooks/Conditional/Shortcircuit';
 // import UseEffectApi from './Hooks/useEffect/UseEffectApi';
 // import UseStateNo from './Hooks/useState/useStateNo';\
 // import Start from './Hooks/useEffect/Start';
@@ -25,7 +27,9 @@ root.render(
     {/* <Start/> */}
     {/* <UseEffectCleanup/> */}
     {/* <UseEffectApi/> */}
-    <Conditional/>
+    {/* <Conditional/> */}
+    {/* <Shortcircuit/> */}
+    <Form/>
   </React.StrictMode>
 );
 

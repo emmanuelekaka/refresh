@@ -6,6 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
 }
 
 code {
@@ -42,4 +44,35 @@ code {
   height:100px;
   width: 100px;
   border-radius: 50%;
+}
+.form{
+  display:flex;
+  flex-direction: column;
+}
+.form>div{
+  display: flex;
+  flex-direction: column;
+  width:400px;
+  margin:4px 0px;
+}
+.form>button{
+  width: 100px;
+  color:white;
+  background-color: burlywood;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+label{
+  margin-bottom: 5px;
+}
+input{
+  outline: none;
+  height:20px;
+  padding-left:10px;
+  border:1px solid orange;
+  border-radius: 2px;
+}
+.form>button:hover{
+  cursor: pointer;
 }
